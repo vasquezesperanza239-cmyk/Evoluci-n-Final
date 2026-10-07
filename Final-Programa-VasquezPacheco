@@ -39,7 +39,7 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 ventana = ctk.CTk()
-ventana.title("Registro de Producto")
+ventana.title("Registro de Producto version mejorada")
 ventana.geometry("400x380")
 ventana.resizable(False, False)
 ventana.grid_columnconfigure((0, 1), weight=1)
