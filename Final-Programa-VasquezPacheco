@@ -40,7 +40,7 @@ ctk.set_default_color_theme("blue")
 
 ventana = ctk.CTk()
 ventana.title("Registro de Producto version mejorada")
-ventana.geometry("400x380")
+ventana.geometry("400x400")
 ventana.resizable(False, False)
 ventana.grid_columnconfigure((0, 1), weight=1)
 
@@ -70,7 +70,7 @@ btn_registrar.grid(row=5, column=0, padx=(40, 10), pady=10)
 
 btn_limpiar = ctk.CTkButton(
     ventana,
-    text="Limpiar",
+    text="Limpiar :)",
     command=limpiar,
     width=140,
     fg_color="gray40",
